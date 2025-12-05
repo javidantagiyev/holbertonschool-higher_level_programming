@@ -8,4 +8,4 @@ if (count == 0):
 else:
     print("{} argument{}:".format(count, "" if count == 1 else "s"))
 for i in range(1, len(argv)):
-    print("{}. {}".format(i, argv[i]))
+    print("{}: {}".format(i, argv[i]))
